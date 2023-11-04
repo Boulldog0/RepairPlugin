@@ -1,0 +1,12 @@
+name: RepairPlugin
+version: 1.0.0
+author: Boulldogo
+main: fr.Boulldogo.RepairPlugin.Main
+description: Plugin permettant de réparer des items
+commands:
+  repair:
+    permission: repair.use
+    description: Permet de réparer l'item en main
+  repair-all:
+     permission: repair-all.use
+     description: Permet de réparer l'entiéreté de son inventaire

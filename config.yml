@@ -1,0 +1,35 @@
+#Prefix of the plugin
+prefix: "&7[&cRepairPlugin&7] "
+#Define if you choice to use or no the prefix before the messages
+use-prefix: true
+#Do not touch
+version: 1.0.0
+#Define the cooldown time between two /repair ( in seconds )
+cooldown-repair: 120
+#Define the cooldown time between two /repair-all ( in seconds )
+cooldown-repair-all: 400
+#Define the cost of a /repair. Define to 0 for disable economy system for this command.
+repair-cost: 500
+#Define the cost of a /repair-all. Define to 0 for disable economy system for this command.
+repair-all-cost: 3000
+messages:
+   only-player-can-execute: "Seul les joueurs peuvent executer cette commande."
+   #Message sent when the /repair when the /repair has been correctly carried out
+   #Placeholder : %price% > Money withdraw on the player's account. Remove this if repair-cost is define to 0 ( because it's usless )
+   repair-success-message: "&2L'item dans votre main viens d'être réparé, %price%$ ont étés retiré de votre compte !"
+   #Message sent when the /repair-all when the /repair has been correctly carried out
+   #Placeholder : %price% > Money withdraw on the player's account. Remove this if repair-all-cost is define to 0 ( because it's usless )
+   repair-all-success-message: "&2Les items de votre inventaire viennent d'être réparé, %price%$ ont étés retiré de votre compte !"
+   #Message sent when the player dosen't have an item in hand when /repair is executed.
+   repair-any-item-in-hand: "&cVous devez avoir un item en main avant d'executer cette commande."
+   #Message sent when the player is still under the cooldown of the command.
+   cooldown-message: "&cIl vous reste %cooldown% secondes avant de pouvoir de nouveau executer cette commande."
+   #Message sent when the player dosen't have enough money
+   money-missing: "&cVous n'avez pas %price%$ pour executer cette commande."
+   #Message sent when an error detected with the economy system 
+   economy-error: "&cUne erreur est survenue durant la transaction. Veuillez contacter un administrateur."
+   #Message sent when the item on the hand to the player already repaired
+   already-repair: "&cL'item dans votre main est déjà totalement réparé."
+   #Message sent when all the items of the player's inventory has been repaired
+   no-items-to-repair: "&cAucun item de votre inventaire n'a besoin d'être réparé."
+
