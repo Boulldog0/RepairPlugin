@@ -14,9 +14,9 @@
 
 # Permission supplémentaires :
 
-** - repair.bypasscost-repairall : Permet de bypass le cout du /repair-all**
-** - repair.bypasscooldown-repairall : Permet de bypass le cooldown du /repair-all**
-** - repair.bypasscost-repair : Permet de bypass le cout du /repair**
-** - repair.bypasscooldown-repair : Permet de bypass le cooldown du /repair**
+**- repair.bypasscost-repairall : Permet de bypass le cout du /repair-all**
+**- repair.bypasscooldown-repairall : Permet de bypass le cooldown du /repair-all**
+**- repair.bypasscost-repair : Permet de bypass le cout du /repair**
+**- repair.bypasscooldown-repair : Permet de bypass le cooldown du /repair**
 
 ## En cas de besoin de support, je suis joignable tout le temps sur discord : Boulldogo#0001 ou rendez vous sur ce discord : https://discord.gg/ugZ7SPZ85J
